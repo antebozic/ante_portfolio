@@ -4,7 +4,7 @@ window.addEventListener('scroll', () => {
 	logoDisappear();
 });
 
-console.log('Hello! Find out more about this site at: ');
+console.log('Hello! Find out more about this site at: https://github.com/antebozic/ante_portfolio');
 
 function loaderFade() {
 	setTimeout(() => {
