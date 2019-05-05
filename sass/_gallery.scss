@@ -1,0 +1,16 @@
+.gallery {
+	opacity: 0;
+	animation: appear .7s 2s forwards ease-in;
+	grid-column: full-start / full-end;
+	grid-row: 2 / -1;
+	display: grid;
+	grid-gap: 8rem;
+	grid-template-columns: repeat(auto-fit, minmax(42vw, 50rem));
+	grid-template-rows: repeat(auto-fit, minmax(48rem, 50rem));
+	justify-content: center;
+	align-items: center;
+
+	@media (max-width: 1050px) {
+		grid-gap: 5.5rem;
+	}
+}

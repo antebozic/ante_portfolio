@@ -1,0 +1,29 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	scroll-behavior: smooth;
+	box-sizing: border-box;
+	font-size: 62.5%; // 10px/16px = 62.5% -> 1rem = 10px
+	font-family: 'Karla', sans-serif;
+	background-color: #f2f2f2;
+}
+.wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+}
+.container {
+	display: grid;
+	grid-template-columns: [full-start] minmax(1rem, 1fr) [center-start]
+		repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(5rem, 1fr) [full-end];
+
+	grid-template-rows: 10rem 45vh 45vh 50rem;
+
+	transition: all .8s ease-in-out;
+}

@@ -1,0 +1,35 @@
+@keyframes opening {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	75% {
+		opacity: 1;
+	}
+	85% {
+		opacity: .5;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes appear {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes pulsating {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

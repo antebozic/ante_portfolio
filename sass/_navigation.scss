@@ -1,0 +1,19 @@
+.up__btn {
+	position: fixed;
+	bottom: 1rem;
+	right: 0rem;
+	padding: 3rem;
+	font-size: 7rem;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+	z-index: 10;
+	border: none;
+	background-color: inherit;
+	transform: rotate(-90deg);
+	border-radius: 50%;
+	font-weight: 100;
+	transition: all .5s ease-in-out;
+	display: none;
+	outline: none;
+}
